@@ -1,4 +1,4 @@
-# Nile20-Hack2
+# Nile20-Hack2🚩
 Team Nile 2020, Hackathon 2 Repository
 
 This README explains how to get started with this repository.
@@ -13,4 +13,4 @@ This repository contains code written by Team Nile for the Dufuna-CodeCamp 2020 
 5. If pull request is approved, a teammate merges the change to master
 
 Remember to always pull other changes before you start your task
-Goodluck 😃!!!
+Goodluck 😃 !!!
