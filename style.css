@@ -59,6 +59,10 @@ height: 40px;
     margin-right: 20px;
     
 }
+h1{
+    text-align: center;
+    margin: 20px;
+}
 .career-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -93,7 +97,7 @@ height: 40px;
   FOOTER
   ***********************************/
   footer{
-    background-color:purple ;
+    background-color:purple;
 }
 .footer-link{
     display: flex;
@@ -120,7 +124,7 @@ height: 40px;
     height: 44px;
     line-height: 19px;
     font-size: 16px;
-    color: purple ;
+    color: purple;
 }
 .footer-link button{
     width: 108px;
