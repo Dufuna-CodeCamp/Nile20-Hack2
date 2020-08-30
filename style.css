@@ -9,7 +9,7 @@
 body {
     margin: 0 auto;
     padding: 0;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 18px;
     font-family: oswald PT sans serif;
     max-width: 960px;
@@ -40,6 +40,14 @@ ul, li{
     margin-right: 86px;
     color:black;
 }
+.nav-link nav a li:hover{
+    color: white;
+}
+
+nav li button{
+width: 100px;
+height: 40px;
+}
 .career{
     display: flex;
     margin: 30px;
@@ -57,13 +65,28 @@ ul, li{
     grid-gap: 20px;
     background: #efefef;
     color: #000;
+    margin: 20px 0;
 }
 .career-list img{
     width: 300px;
     height: 200px;
 }
+.career-list div{
+    background-color: #fff;
+    color: #000;
+}
+.career-list div:hover{
+    background: #efefef;
+}
 .career-list h2{
     margin: 20px 0;
+    text-align: center;
+    color: #000;
+}
+.career-list P{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
 }
 
 /**********************************
