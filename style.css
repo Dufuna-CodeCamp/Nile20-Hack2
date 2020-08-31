@@ -111,7 +111,22 @@ h1{
     color: #000;
     text-justify: auto;
 }
-
+/**********************************
+  MOBILE
+  ***********************************/
+  .mobile{
+    margin-bottom: 30px;
+}
+.mobile-img img{
+    width: 100%;
+    margin: 20px 0;
+}
+.mobile p{
+    text-align: justify;
+}
+.mobile h2{
+    margin: 20px 0;
+}
 /**********************************
   FOOTER
   ***********************************/
