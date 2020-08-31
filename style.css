@@ -23,17 +23,24 @@ a{
 ul, li{
     list-style: none ;
 }
-.header-link{
+
+/**********************************
+  HEADER
+  ***********************************/
+
+  .header-link{
     display: flex;
-    background: purple;
-    justify-content: flex-start;
-    height: 50px;
+    justify-content: flex-end;
+    background-color: purple;
+    color:black;
     align-items: center;
+
 }
-.logo{
-    margin-right: auto;
+ .logo{
+    margin-right:auto;
 }
-.nav-link nav a li {
+
+.nav-link ul li {
     display: inline-block;
     line-height: 19px;
     font-size: 20px;
@@ -48,8 +55,13 @@ nav li button{
 width: 100px;
 height: 40px;
 }
+
+/**********************************
+  HOME
+  ***********************************/
 .career{
     display: flex;
+    flex-flow: nowrap;
     margin: 30px;
 }
 .career h1{
@@ -57,6 +69,7 @@ height: 40px;
 }
 .career p{
     margin-right: 20px;
+    text-align:justify ;
     
 }
 h1{
@@ -69,15 +82,17 @@ h1{
     grid-gap: 20px;
     background: #efefef;
     color: #000;
-    margin: 20px 0;
+    margin: 20px;
 }
 .career-list img{
     width: 300px;
     height: 200px;
+    border-radius: 20px;
 }
 .career-list div{
     background-color: #fff;
     color: #000;
+    border-radius: 20px;
 }
 .career-list div:hover{
     background: #efefef;
@@ -91,6 +106,7 @@ h1{
     text-align: center;
     margin-bottom: 20px;
     color: #000;
+    text-justify: auto;
 }
 
 /**********************************
@@ -149,3 +165,59 @@ color: #fff;
     display: inline-block;
     margin-left: 12px;
 }
+
+/**********************************
+  RESPONSIVENESS
+  ***********************************/
+  @media screen and ( max-width:650px ) { 
+
+
+  /**********************************
+  HEADER
+***********************************/
+
+.header-link{
+    flex-flow:wrap;
+    justify-content: flex-end;
+
+}
+.nav-link ul li{
+    margin: 15px;
+}
+    
+    .career{
+        flex-flow: wrap;
+    }
+    .career img{
+        margin: 20px auto;
+        text-align: center ;
+
+    }
+
+    .career-list{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px auto;
+    }
+    .career-list a img{
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    
+     /**********************************
+         FOOTER
+      ***********************************/
+      .footer-link{
+        display: block;
+        margin-left: 15px;
+    }
+    .social h3{
+        margin-top: 20px;
+    }
+    .social-link li{
+        margin-right: 5px;
+    }
+    
+  }
