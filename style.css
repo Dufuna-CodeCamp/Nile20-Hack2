@@ -112,6 +112,87 @@ h1{
     text-justify: auto;
 }
 /**********************************
+  CONTACT
+  ***********************************/
+  .contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-us{
+    margin-top: 119px;
+}
+.contact h3{
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1.25px;
+    text-align: center;
+}
+
+.contact-list{
+    text-align: center;
+    list-style: none;
+    
+}
+.contact-list a{
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+.social-contact{
+    margin: 20px auto;
+    display: table;
+    
+}
+
+.social-contact li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.img-contact{
+    display: block;
+    margin: 20px auto 15px auto ;
+}
+.contact-form input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 20px;
+    line-height: 30px;
+}
+textarea{
+    width: 350px;
+    height: 125px;
+}
+.contact-form fieldset{
+    margin: 31px 27px 18px 0;
+    padding: 12px 33px 5px 23px;
+}
+.contact-form h3{
+    margin: 12px 33px 21px 36px;
+}
+.contact-form img{
+    display: block;
+    margin: 24px auto 0 auto;
+}
+.contact-form label{
+    font-size: 20px;
+    line-height: 30px;
+}
+.contact-send{
+    border-radius: 4px;
+    margin: 19px 0px 32px 300px;
+}
+
+.contact-form .contact-send{
+    width: 56px;
+    background-color:purple;
+}
+/**********************************
   MOBILE
   ***********************************/
   .mobile{
@@ -244,7 +325,68 @@ color: #fff;
         text-align: center;
         margin: 20px auto;
     }
+    /**********************************
+  PAGE: CONTACT
+  ***********************************/
+  .contact{
+      flex-flow: column;
+  }
+  
+  .contact h3{
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+.contact-list a{
+    font-size: 16px;
+}
+  .img-contact{
+    width: 30px;
+}
 
+.social-contact img{
+    width: 40px;
+}
+.social-contact{
+    margin: 10px 100px;
+}
+.contact-form input{
+    width: 350px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 10px;
+    line-height: 15px;
+}
+.contact-form fieldset{
+    margin: 30px 10px 15px 10PX;
+    padding: 10px 20px 10px 40px;
+}
+.contact-form h3{
+    margin: 10px 30px 15px 20px;
+}
+.contact-form img{
+    display: block;
+    margin: 24px auto 0 auto;
+    width: 30px;
+}
+.contact-form label{
+    font-size: 20px;
+    line-height: 30px;
+}
+.contact-send{
+    border-radius: 4px;
+    margin: 19px 0px 32px 300px;
+}
+
+.contact-form .contact-send{
+    width: 50px;
+}
+textarea{
+    width: 350px;
+    height: 100px;
+}
     
      /**********************************
          FOOTER
