@@ -109,6 +109,102 @@ h1{
     text-justify: auto;
 }
 
+/* SECTION */
+
+.career-paragraph{
+    line-height: 27px;
+}
+
+.sub-heading{
+    line-height: 30px;
+}
+.web-development{
+    background-color: #fff;
+}
+
+.overview{
+    background-color: #fff;
+    padding: 10px 0px 10px 0px;
+}
+
+.web-overview{
+    display: flex;
+}
+.webdev{
+    padding: 25px;
+   text-align: justify;
+   font-size: 20px;
+   line-height: 27px;
+}
+
+
+.web-division{
+    text-align: center;
+    padding: 40px 70px 40px 70px;
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 20px;
+}
+
+.front-end{
+    text-align: center;
+    text-justify: auto;
+    padding: 40px 70px 10px 70px;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.article{
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    flex: 0 1 40%;
+
+}
+
+.article h2{
+    text-align: center;
+}
+
+.article p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+    line-height: 22px;
+}
+
+.article img{
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.why-backend{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./img/webdev9.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    color: #fff;
+}
+
+.why-backend h1{
+    padding-top: 180px;
+    font-size: 40px;
+}
+
+.back-end{
+    margin-top: 50px;
+}
+
+.backend-control{
+    text-align: center;
+    padding: 50px 70px 50px 80px;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+
 /**********************************
   FOOTER
   ***********************************/
@@ -203,6 +299,55 @@ color: #fff;
         display: block;
         text-align: center;
         margin: 20px auto;
+    }
+
+   /* SECTION */
+   .overview h1{
+       font-size: 28px;
+       line-height: 29px;
+   }
+
+   .web-division{
+       text-align: justify;
+       padding: 20px;
+   }
+
+   .front-end{
+        text-align: justify;
+        padding: 20px;
+   }
+    .blocks{
+        display: flex;
+    } 
+    .web-overview{
+       flex-wrap: wrap;
+    }
+
+    .blocks img{
+        width: 100%;
+    }
+    
+    .career-list div img{
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .why-backend h1{
+        font-size: 28px;
+    }
+    
+    .backend-control{
+        padding: 20px;
+    }
+
+    .backend-control h1{
+        font-size: 28px;
+    }
+
+    .backend-control p{
+        text-align: justify; 
+        padding: 0px;  
     }
 
     
