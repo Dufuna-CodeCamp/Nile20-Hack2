@@ -231,6 +231,46 @@ textarea{
     list-style-type: square;
 }
 /**********************************
+  DATA SCIENCE
+  ***********************************/
+  .data-science{
+    margin: 20px;
+}
+.data-img img{
+    width: 100%;
+    margin: 20px 0;
+}
+.data-science p{
+    text-align: justify;
+}
+.data-science h2{
+    margin: 20px 0;
+}
+
+.data-science ul li{
+    list-style-type: square;
+}
+  /**********************************
+  CYBER SECURITY
+  ***********************************/
+  .cyber{
+    margin: 20px;
+}
+.cyber-img img{
+    width: 100%;
+    margin: 20px 0;
+}
+.cyber p{
+    text-align: justify;
+}
+.cyber h2{
+    margin: 20px 0;
+}
+
+.cyber ul li{
+    list-style-type: square;
+}
+/**********************************
   FOOTER
   ***********************************/
   footer{
