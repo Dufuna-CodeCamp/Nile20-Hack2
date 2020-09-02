@@ -11,7 +11,7 @@ body {
     padding: 0;
     font-size: 18px;
     line-height: 18px;
-    font-family: oswald PT sans serif;
+    font-family: oswald PT sans, serif;
     max-width: 960px;
     justify-items: center;
     background-color:#efefef;
@@ -47,7 +47,10 @@ ul, li{
     margin-right: 86px;
     color:black;
 }
-.nav-link nav a li:hover{
+.nav-link nav li a{
+    color: #000;
+}
+.nav-link nav li a:hover{
     color: white;
 }
 
@@ -117,8 +120,165 @@ form{
     font-weight: bolder;
     background-color: black;
     color: white;
+/**********************************
+  CONTACT
+  ***********************************/
+  .contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-us{
+    margin-top: 119px;
+}
+.contact h3{
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1.25px;
+    text-align: center;
 }
 
+.contact-list{
+    text-align: center;
+    list-style: none;
+    
+}
+.contact-list a{
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+.social-contact{
+    margin: 20px auto;
+    display: table;
+    
+}
+
+.social-contact li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.img-contact{
+    display: block;
+    margin: 20px auto 15px auto ;
+}
+.contact-form input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 20px;
+    line-height: 30px;
+}
+textarea{
+    width: 350px;
+    height: 125px;
+}
+.contact-form fieldset{
+    margin: 31px 27px 18px 0;
+    padding: 12px 33px 5px 23px;
+}
+.contact-form h3{
+    margin: 12px 33px 21px 36px;
+}
+.contact-form img{
+    display: block;
+    margin: 24px auto 0 auto;
+}
+.contact-form label{
+    font-size: 20px;
+    line-height: 30px;
+}
+.contact-send{
+    border-radius: 4px;
+    margin: 19px 0px 32px 300px;
+}
+
+.contact-form .contact-send{
+    width: 56px;
+    background-color:purple;
+}
+/**********************************
+  MOBILE
+  ***********************************/
+  .mobile{
+    margin-bottom: 30px;
+}
+.mobile-img img{
+    width: 100%;
+    margin: 20px 0;
+}
+.mobile p{
+    text-align: justify;
+}
+.mobile h2{
+    margin: 20px 0;
+}
+/**********************************
+  SOFTWARE
+  ***********************************/
+  .software{
+    margin: 20px;
+}
+.software-img img{
+    width: 100%;
+    margin: 20px 0;
+}
+.software p{
+    text-align: justify;
+}
+.software h2{
+    margin: 20px 0;
+}
+.software h3{
+    margin: 10px 0;
+}
+.software ul li{
+    list-style-type: square;
+}
+/**********************************
+  DATA SCIENCE
+  ***********************************/
+  .data-science{
+    margin: 20px;
+}
+.data-img img{
+    width: 100%;
+    margin: 20px 0;
+}
+.data-science p{
+    text-align: justify;
+}
+.data-science h2{
+    margin: 20px 0;
+}
+
+.data-science ul li{
+    list-style-type: square;
+}
+  /**********************************
+  CYBER SECURITY
+  ***********************************/
+  .cyber{
+    margin: 20px;
+}
+.cyber-img img{
+    width: 100%;
+    margin: 20px 0;
+}
+.cyber p{
+    text-align: justify;
+}
+.cyber h2{
+    margin: 20px 0;
+}
+
+.cyber ul li{
+    list-style-type: square;
+}
 /**********************************
   FOOTER
   ***********************************/
@@ -214,7 +374,68 @@ color: #fff;
         text-align: center;
         margin: 20px auto;
     }
+    /**********************************
+  PAGE: CONTACT
+  ***********************************/
+  .contact{
+      flex-flow: column;
+  }
+  
+  .contact h3{
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+.contact-list a{
+    font-size: 16px;
+}
+  .img-contact{
+    width: 30px;
+}
 
+.social-contact img{
+    width: 40px;
+}
+.social-contact{
+    margin: 10px 100px;
+}
+.contact-form input{
+    width: 350px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 10px;
+    line-height: 15px;
+}
+.contact-form fieldset{
+    margin: 30px 10px 15px 10PX;
+    padding: 10px 20px 10px 40px;
+}
+.contact-form h3{
+    margin: 10px 30px 15px 20px;
+}
+.contact-form img{
+    display: block;
+    margin: 24px auto 0 auto;
+    width: 30px;
+}
+.contact-form label{
+    font-size: 20px;
+    line-height: 30px;
+}
+.contact-send{
+    border-radius: 4px;
+    margin: 19px 0px 32px 300px;
+}
+
+.contact-form .contact-send{
+    width: 50px;
+}
+textarea{
+    width: 350px;
+    height: 100px;
+}
     
      /**********************************
          FOOTER
