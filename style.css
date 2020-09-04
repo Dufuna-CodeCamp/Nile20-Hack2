@@ -408,6 +408,31 @@ textarea{
 }
 
 /**********************************
+  UI/UX session
+  ***********************************/
+  .ui-ux-img {
+    width: 100%;
+    margin: 10px;
+  }
+  .UI-UX p {
+    text-align: justify;
+    margin: 10px;
+  }
+  .UI-UX ul {
+    margin: 10px;
+  }
+  .UI-UX ul h3 {
+    margin-bottom: 5px;
+  }
+  .needs-text {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+  .UI-UX .needs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+/**********************************
   FOOTER
   ***********************************/
   footer{
